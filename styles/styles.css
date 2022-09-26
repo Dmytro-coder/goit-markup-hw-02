@@ -37,7 +37,7 @@ rgba(255, 255, 255, 0.6) */
   color: #000000;
 }
 .logo-light {
-  color: var(--hero-text-color);
+  color: var(--primery-white-color);
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -47,6 +47,9 @@ rgba(255, 255, 255, 0.6) */
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 .contact-nav .link:hover,
@@ -60,10 +63,13 @@ rgba(255, 255, 255, 0.6) */
 }
 .hero-title {
   color: var(--primery-white-color);
+  font-size: 44px;
+  line-height: 60px;
 }
-.button {
+.button.primary {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
+  font-size: 16px;
 }
 
 /* Section */
@@ -79,4 +85,15 @@ rgba(255, 255, 255, 0.6) */
 /* Team */
 .team .title {
   color: var(--title-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primery-bg-color);
+}
+.contact-footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer .address {
+  color: var(--primery-white-color);
 }
