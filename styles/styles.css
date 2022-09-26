@@ -7,9 +7,10 @@
   --primery-white-color: #ffffff;
 }
 
-body= {
+body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
+  color: var(--primery-text-color);
   background-color: #f5f5f5;
 }
 
@@ -79,11 +80,6 @@ rgba(255, 255, 255, 0.6) */
   color: var(--title-text-color);
   font-size: 16px;
 }
-.buttons .link:hover,
-.buttons .link:focus {
-  color: var(--primery-white-color);
-  background-color: var(--accent-color);
-}
 
 /* Section */
 .section-title {
@@ -96,6 +92,9 @@ rgba(255, 255, 255, 0.6) */
 }
 
 /* Team */
+.section-team {
+  background-color: var(--secondary-bg-color);
+}
 .team .title {
   color: var(--title-text-color);
 }
@@ -110,8 +109,17 @@ rgba(255, 255, 255, 0.6) */
 .contact-footer .address {
   color: var(--primery-white-color);
 }
-
 .contact-footer .link:hover,
 .contact-footer .link:focus {
   color: var(--accent-color);
+}
+
+/* Portfolio */
+.portfolio .title {
+  color: var(--title-text-color);
+}
+.buttons .link:hover,
+.buttons .link:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
 }
