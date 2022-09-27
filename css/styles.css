@@ -12,6 +12,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primery-text-color);
   background-color: #f5f5f5;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -34,6 +36,9 @@ rgba(255, 255, 255, 0.6) */
 }
 .logo {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .logo-dark {
   color: #000000;
@@ -43,9 +48,11 @@ rgba(255, 255, 255, 0.6) */
 }
 .site-nav .link {
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 .contact-nav .link {
   color: var(--primery-text-color);
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -67,6 +74,7 @@ rgba(255, 255, 255, 0.6) */
   color: var(--primery-white-color);
   font-size: 44px;
   line-height: 60px;
+  letter-spacing: 0.06em;
 }
 
 /* Buttons */
@@ -74,6 +82,7 @@ rgba(255, 255, 255, 0.6) */
   background-color: var(--accent-color);
   color: var(--primery-white-color);
   font-size: 16px;
+  letter-spacing: 0.06em;
 }
 .button.secondary {
   background-color: var(--secondary-bg-color);
