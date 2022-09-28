@@ -132,7 +132,7 @@ rgba(255, 255, 255, 0.6) */
   clip-path: inset(50%);
   margin: -1px;
 }
-.feature-list-title {
+.feature-list .text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -195,7 +195,7 @@ rgba(255, 255, 255, 0.6) */
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio .activity-profile {
+.portfolio .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -209,7 +209,9 @@ rgba(255, 255, 255, 0.6) */
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .buttons .link:hover,
 .buttons .link:focus {
