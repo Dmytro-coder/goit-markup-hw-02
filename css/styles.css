@@ -78,7 +78,7 @@ rgba(255, 255, 255, 0.6) */
 
 /* Hero */
 .hero {
-button  background-color: var(--primery-bg-color);
+  background-color: var(--primery-bg-color);
 }
 .hero-title {
   color: var(--primery-white-color);
