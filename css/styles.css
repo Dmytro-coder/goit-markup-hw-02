@@ -11,7 +11,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   color: var(--primery-text-color);
-  background-color: #f5f5f5;
+  background-color: var(--primery-white-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -36,9 +36,10 @@ rgba(255, 255, 255, 0.6) */
 }
 .logo {
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: raleway;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo-dark {
   color: #000000;
@@ -49,10 +50,12 @@ rgba(255, 255, 255, 0.6) */
 .site-nav .link {
   color: var(--title-text-color);
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact-nav .link {
   color: var(--primery-text-color);
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -114,9 +117,13 @@ rgba(255, 255, 255, 0.6) */
 }
 .contact-footer .link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
 }
 .contact-footer .address {
   color: var(--primery-white-color);
+  text-decoration: none;
+  font-style: normal;
 }
 .contact-footer .link:hover,
 .contact-footer .link:focus {
