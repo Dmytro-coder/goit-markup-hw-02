@@ -36,20 +36,20 @@ rgba(255, 255, 255, 0.6) */
 }
 .logo {
   color: var(--accent-color);
+  text-decoration: none;
+
   font-family: raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
 }
 .logo-dark {
   color: #000000;
 }
-.logo-light {
-  color: var(--primery-white-color);
-}
+
 .site-nav .link {
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,6 +58,7 @@ rgba(255, 255, 255, 0.6) */
 }
 .contact-nav .link {
   color: var(--primery-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -82,16 +83,19 @@ rgba(255, 255, 255, 0.6) */
 }
 .hero-title {
   color: var(--primery-white-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /* Buttons */
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primery-white-color);
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -101,14 +105,17 @@ rgba(255, 255, 255, 0.6) */
 /* Section */
 .section-title {
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
 }
 
 /* Feature */
 .feature-list .title {
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -137,6 +144,7 @@ rgba(255, 255, 255, 0.6) */
 }
 .team .title {
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -154,6 +162,7 @@ rgba(255, 255, 255, 0.6) */
 .contact-footer .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -162,6 +171,7 @@ rgba(255, 255, 255, 0.6) */
 .contact-footer .address {
   color: var(--primery-white-color);
   text-decoration: none;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -173,8 +183,13 @@ rgba(255, 255, 255, 0.6) */
 }
 
 /* Portfolio */
+.logo-light {
+  color: var(--primery-white-color);
+}
+
 .portfolio .title {
   color: var(--title-text-color);
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -185,13 +200,16 @@ rgba(255, 255, 255, 0.6) */
   font-size: 16px;
   line-height: 1.88;
 }
+.button {
+  font-family: inherit;
+}
 .button.secondary {
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  letter-spacing: 0.03em;
 }
 .buttons .link:hover,
 .buttons .link:focus {
