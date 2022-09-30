@@ -54,6 +54,13 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+.site-nav-link.current {
+  color: var(--accent-color);
+}
 .contact-nav-link {
   color: var(--primery-text-color);
 
@@ -63,15 +70,8 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: var(--accent-color);
-}
 .contact-nav-link:hover,
 .contact-nav-link:focus {
-  color: var(--accent-color);
-}
-.site-nav-link.current {
   color: var(--accent-color);
 }
 
