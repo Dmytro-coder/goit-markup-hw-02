@@ -45,7 +45,7 @@ rgba(255, 255, 255, 0.6) */
   color: #000000;
 }
 
-.site-nav .link {
+.site-nav-link {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -54,7 +54,7 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.contact-nav .link {
+.contact-nav-link {
   color: var(--primery-text-color);
 
   font-weight: 500;
@@ -63,15 +63,15 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-color);
 }
-.contact-nav .link:hover,
-.contact-nav .link:focus {
+.contact-nav-link:hover,
+.contact-nav-link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav-link.current {
   color: var(--accent-color);
 }
 
@@ -117,8 +117,6 @@ rgba(255, 255, 255, 0.6) */
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-}
-.hero-button.pointer {
   cursor: pointer;
 }
 .hero-button.link:hover,
@@ -159,7 +157,7 @@ rgba(255, 255, 255, 0.6) */
 }
 
 /* Features */
-.features .title {
+.features-title {
   color: var(--title-text-color);
 
   width: 270px;
@@ -173,7 +171,7 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features .text {
+.features-text {
   width: 270px;
   top: 800px;
 
@@ -186,7 +184,7 @@ rgba(255, 255, 255, 0.6) */
 .section-team {
   background-color: var(--secondary-bg-color);
 }
-.team .title {
+.team-title {
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -194,7 +192,7 @@ rgba(255, 255, 255, 0.6) */
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.team .text {
+.team-text {
   height: 19px;
   top: 1951px;
 
@@ -207,7 +205,7 @@ rgba(255, 255, 255, 0.6) */
 .footer {
   background-color: var(--primery-bg-color);
 }
-.contact-footer .address {
+.contact-address {
   color: var(--primery-white-color);
   text-decoration: none;
 
@@ -216,7 +214,7 @@ rgba(255, 255, 255, 0.6) */
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.contact-footer .link {
+.contact-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 
@@ -225,8 +223,8 @@ rgba(255, 255, 255, 0.6) */
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.contact-footer .link:hover,
-.contact-footer .link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -235,7 +233,7 @@ rgba(255, 255, 255, 0.6) */
   color: var(--primery-white-color);
 }
 
-.portfolio .title {
+.portfolio-title {
   color: var(--title-text-color);
 
   width: 322px;
@@ -246,7 +244,7 @@ rgba(255, 255, 255, 0.6) */
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio .text {
+.portfolio-text {
   width: 322px;
   height: 30px;
 
