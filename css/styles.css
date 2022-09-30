@@ -162,6 +162,11 @@ rgba(255, 255, 255, 0.6) */
 .features .title {
   color: var(--title-text-color);
 
+  width: 270px;
+  height: 16px;
+  /* left: 215px; */
+  top: 774px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -169,7 +174,9 @@ rgba(255, 255, 255, 0.6) */
   text-transform: uppercase;
 }
 .features .text {
-  font-weight: 400;
+  width: 270px;
+  top: 800px;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -188,7 +195,9 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.03em;
 }
 .team .text {
-  font-weight: 400;
+  height: 19px;
+  top: 1951px;
+
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -229,15 +238,21 @@ rgba(255, 255, 255, 0.6) */
 .portfolio .title {
   color: var(--title-text-color);
 
+  width: 322px;
+  height: 36px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio .text {
-  font-weight: 400;
+  width: 322px;
+  height: 30px;
+
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 .button {
   font-family: inherit;
@@ -245,6 +260,10 @@ rgba(255, 255, 255, 0.6) */
 .filters-button {
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
+
+  height: 38px;
+  top: 174px;
+  border-radius: 4px;
 
   font-weight: 500;
   font-size: 16px;
