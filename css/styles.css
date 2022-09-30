@@ -119,8 +119,8 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.hero-button.link:hover,
-.hero-button.link:focus {
+.hero-button:hover,
+.hero-button:focus {
   color: var(--primery-white-color);
 
   width: 216px;
