@@ -82,6 +82,8 @@ rgba(255, 255, 255, 0.6) */
 .hero-title {
   color: var(--primery-white-color);
 
+  width: 696px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
