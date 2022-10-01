@@ -78,19 +78,9 @@ rgba(255, 255, 255, 0.6) */
 /* Hero */
 .hero {
   background-color: var(--primery-bg-color);
-  /* position: absolute; */
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
 }
 .hero-title {
   color: var(--primery-white-color);
-
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
 
   font-weight: 900;
   font-size: 44px;
@@ -103,10 +93,7 @@ rgba(255, 255, 255, 0.6) */
 /* Buttons */
 .hero-button {
   background-color: var(--accent-color);
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
@@ -122,11 +109,6 @@ rgba(255, 255, 255, 0.6) */
 .hero-button:hover,
 .hero-button:focus {
   color: var(--primery-white-color);
-
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
 
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -160,11 +142,6 @@ rgba(255, 255, 255, 0.6) */
 .features-title {
   color: var(--title-text-color);
 
-  width: 270px;
-  height: 16px;
-  /* left: 215px; */
-  top: 774px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -172,9 +149,6 @@ rgba(255, 255, 255, 0.6) */
   text-transform: uppercase;
 }
 .features-text {
-  width: 270px;
-  top: 800px;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -193,9 +167,6 @@ rgba(255, 255, 255, 0.6) */
   letter-spacing: 0.03em;
 }
 .team-text {
-  height: 19px;
-  top: 1951px;
-
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -236,18 +207,12 @@ rgba(255, 255, 255, 0.6) */
 .portfolio-title {
   color: var(--title-text-color);
 
-  width: 322px;
-  height: 36px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-text {
-  width: 322px;
-  height: 30px;
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -259,8 +224,6 @@ rgba(255, 255, 255, 0.6) */
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
 
-  height: 38px;
-  top: 174px;
   border-radius: 4px;
 
   font-weight: 500;
